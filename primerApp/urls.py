@@ -26,6 +26,7 @@ urlpatterns = [
     path('', include(router.urls)),
     re_path(r'^api/v1/login', include('Login.urls')), 
     re_path(r'^api/v1/primer_componente/', include('primerComponente.urls')),
+    re_path(r'^api/v1/loadImage/', include('loadImage.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api/create_user/', UserAPI.as_view(), name = "api_create_user")
 ]
