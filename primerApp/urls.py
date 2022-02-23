@@ -3,7 +3,7 @@
 from django.urls import path, include, re_path
 from django.contrib.auth.models import User
 from rest_framework import routers, serializers, viewsets
-from creacionUsuarios.api import UserAPI
+from creacionUsuarios.views import UserAPI
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
