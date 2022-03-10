@@ -18,4 +18,6 @@ pip install django-filter
 'pip install django-rest-auth',
 
 'pip install python-dotenv',
+
+'pip install django-cors-headers',
 ```

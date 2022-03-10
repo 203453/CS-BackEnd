@@ -4,10 +4,12 @@ django-cors-headers==3.11.0
 django-filter==21.1
 django-rest-auth==0.9.5
 djangorestframework==3.13.1
+djangorestframework-simplejwt==5.0.0
 drf-extra-fields==3.2.1
 Markdown==3.3.6
 Pillow==9.0.1
 psycopg2==2.9.3
+PyJWT==2.3.0
 python-dotenv==0.19.2
 pytz==2021.3
 six==1.16.0
